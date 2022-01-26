@@ -11,98 +11,80 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="suma"
-        android:text="@string/Suma"
+        android:text="@string/calcular"
         app:backgroundTint="#2756E1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.798" />
-
-    <EditText
-        android:id="@+id/txt_num1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="@string/primervalor"
-        android:inputType="number"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.141" />
-
-    <EditText
-        android:id="@+id/txt_num2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="@string/segundovalor"
-        android:inputType="number"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.237" />
+        app:layout_constraintVertical_bias="0.682" />
 
     <TextView
         android:id="@+id/txt_resultado"
-        android:layout_width="119dp"
-        android:layout_height="60dp"
+        android:layout_width="255dp"
+        android:layout_height="246dp"
+        android:fontFamily="casual"
         android:gravity="center"
         android:lineSpacingExtra="10sp"
         android:text="@string/Resultado"
-        android:textAllCaps="true"
+        android:textAllCaps="false"
         android:textIsSelectable="false"
-        android:textSize="20sp"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.67" />
+        app:layout_constraintVertical_bias="0.442" />
 
     <EditText
-        android:id="@+id/txt_num3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/txt_num2"
+        android:layout_width="233dp"
+        android:layout_height="62dp"
         android:ems="10"
-        android:hint="@string/tercervalor"
-        android:inputType="number"
-        android:textSize="20sp"
+        android:hint="@string/Alimentos"
+        android:inputType="numberDecimal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.326" />
+        app:layout_constraintVertical_bias="0.131"
+        tools:text="@string/Alimentos" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ambos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.069" />
 
     <RadioGroup
-        android:layout_width="300dp"
+        android:layout_width="362dp"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@+id/txt_resultado"
+        android:gravity="center_horizontal|center_vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.56"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_num3">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.22000003">
 
         <RadioButton
-            android:id="@+id/radio1"
+            android:id="@+id/rb1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/Resultado" />
+            android:text="@string/nachos" />
 
         <RadioButton
-            android:id="@+id/radio2"
+            android:id="@+id/rb2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/Resta" />
-
-        <RadioButton
-            android:id="@+id/radio3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/Faltante" />
+            android:text="@string/Alcohol" />
     </RadioGroup>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

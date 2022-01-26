@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application5</string>
+    <string name="app_name">Nachos/Alcohol</string>
     <string name="hello_world">Hello World!!!!!!</string>
     <string name="hola">hola</string>
     <string name="button">Button</string>
@@ -11,4 +11,12 @@
     <string name="tercervalor">Matemáticas</string>
     <string name="Condicion">Promedio</string>
     <string name="Faltante">Falta para 10</string>
+    <string name="Alimentos">Polenta o Ml</string>
+    <string name="Harina">Harina</string>
+    <string name="Agua">Agua</string>
+    <string name="nachos">Nachos (gramos) </string>
+    <string name="Alcohol">Recipiente (mililitros) </string>
+    <string name="calcular">Calcular</string>
+    <string name="ambos">Ingrese cantidad de polenta o ml de recipiente</string>
+
 </resources>
