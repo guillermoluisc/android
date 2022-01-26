@@ -10,4 +10,5 @@
     <string name="segundovalor">Quimica</string>
     <string name="tercervalor">Matemáticas</string>
     <string name="Condicion">Promedio</string>
+    <string name="Faltante">Falta para 10</string>
 </resources>
